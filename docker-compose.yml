@@ -1,4 +1,7 @@
 db:
-  image: stevesloka/mysql
+  image: mysql
+  environment:
+    - MYSQL_ROOT_PASSWORD=password
+    - MYSQL_DATABASE=abstractions
   ports:
     - "3307:3306"

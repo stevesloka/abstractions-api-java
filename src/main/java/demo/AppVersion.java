@@ -1,6 +1,9 @@
 package demo;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class AppVersion {
+
     private String appVersion;
 
     public AppVersion(String appVersion) {

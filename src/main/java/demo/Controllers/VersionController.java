@@ -13,6 +13,6 @@ public class VersionController {
 
     @RequestMapping(method = RequestMethod.GET)
     public ResponseEntity<? extends  Object> getAppVersion() {
-        return new ResponseEntity<AppVersion>(new AppVersion("1.0.0"), HttpStatus.OK);
+        return new ResponseEntity<>(new AppVersion("1.0.0"), HttpStatus.OK);
     }
 }
