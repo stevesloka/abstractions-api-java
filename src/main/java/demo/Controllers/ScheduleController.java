@@ -1,6 +1,5 @@
 package demo.Controllers;
 
-import demo.AppVersion;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
