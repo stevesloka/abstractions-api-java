@@ -1,19 +1,19 @@
 package demo.Controllers;
 
-import demo.OrganizerRepository;
-import demo.Organizer;
+import demo.TeamRepository;
+import demo.TeamMember;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class OrganizersController {
+public class TeamController {
 
     @Autowired
-    OrganizerRepository repository;
+    TeamRepository repository;
 
-    @RequestMapping("/organizers")
-    public Iterable<Organizer> organizers() {
+    @RequestMapping("/team")
+    public Iterable<TeamMember> team() {
         return repository.findAll();
     }
 }

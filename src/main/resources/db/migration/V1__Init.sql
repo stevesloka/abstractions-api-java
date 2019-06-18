@@ -1,4 +1,4 @@
-CREATE TABLE organizer (
+CREATE TABLE team_member (
   id bigint(20) NOT NULL AUTO_INCREMENT,
   first_name varchar(255) DEFAULT NULL,
   last_name varchar(255) DEFAULT NULL,
