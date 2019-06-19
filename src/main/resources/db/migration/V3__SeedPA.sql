@@ -1,0 +1,1 @@
+INSERT INTO team_member (first_name, last_name) VALUES ('Bob', 'Jones');
