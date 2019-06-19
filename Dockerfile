@@ -14,4 +14,4 @@ RUN ./gradlew build
 VOLUME ["/app"]
 VOLUME ["/data/logs"]
 WORKDIR /app
-CMD ["java", "-jar", "/app/build/libs/demo-0.0.1-SNAPSHOT.jar"]
+CMD ["java", "-jar", "/app/build/libs/pixelcorp-api-java.jar"]
